@@ -1,0 +1,458 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.colone{
+	float: left;
+	position: relative;
+	width: 6%;
+	height: 100%;
+	background-color: #1d2531;
+
+}
+.siderlist{
+	position: fixed;
+	left: 0.75%;
+	list-style: none;
+	top: 0.75%;
+}
+.colone .tools , .setting{
+	position: fixed;
+	left: 0.75%;
+	bottom: 0.75%;
+}
+.setting{
+	left: 3%;
+}
+.siderlist li:hover{
+	-moz-transform: rotate(15deg);
+	}
+.coltwo{
+	position: relative;
+	width: 250px;
+	height: 100%;
+	float: left;
+	background: #222c3c;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 0.9em;
+
+}
+.coltwo-content{
+	position: absolute;
+	width: 190px;
+	height: 95%;
+	left:20px;
+	top: 20px; 
+	cursor: pointer;
+}
+.coltwo span{
+	color: #5b6779;
+}
+.coltwo .het{
+	position: absolute;
+
+}
+.coltwo .het img{
+	position: absolute;
+	left:174px; 
+}
+.coltwo ul{
+	list-style: none;
+}
+.coltwo .menu{
+	width: 132px;
+	height: 154px;
+	position: absolute;
+	top: 25px;
+}
+.coltwo #het-two{
+	position: absolute;
+	top: 180px;
+
+}
+.coltwo .products{
+	width: 132px;
+	height: 154px;
+	position: absolute;
+	top: 200px;
+}
+.coltwo #het-three{
+	position: absolute;
+	top: 340px;
+}
+.coltwo .dash{
+	position: absolute;
+	top: 360px;
+}
+.coltwo .goals{
+	position: fixed;
+	
+	border-radius: 2px; 
+	left: cala(100%-90%);
+	bottom: 23px;
+}
+progress::-moz-progress-bar {
+    background-image: linear-gradient(0deg, 
+		#7f5be6 1%, 
+		#9d8fe3 100%);
+	border-radius: 2px; 
+}
+
+.coltwo-content ul li{
+	margin-top: 7px;
+	font-size: 0.75rem;
+}
+.coltwo-content ul li:hover{
+	color: #5b6779;
+}
+.coltwo-content .message-54{
+	position: absolute;
+	width: 32px;
+	height: 24px;
+	border-radius: 12px;
+	background-image: linear-gradient(0deg, 
+		#1991eb 0%, 
+		#2ea1f8 100%); 
+	line-height: 23px;
+	text-align: center;
+	left: 158px;
+	top: 50px;
+}
+.coltwo-content .message-21{
+	position: absolute;
+	width: 32px;
+	height: 24px;
+	border-radius: 12px;
+	background-image: linear-gradient(0deg, 
+		#1991eb 0%, 
+		#2ea1f8 100%); 
+	text-align: center;
+	line-height: 23px;
+	top: 365px;
+	left: 158px;
+}
+.coltwo-content .warning{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-image: linear-gradient(180deg, 
+		#f45438 0%, 
+		#cb270a 100%);
+	border-radius: 12px;
+	left: 163px;
+	top: 403px;
+	text-align: center;
+}
+.coltwo-content .line{
+	width: 190px;
+	height: 1px;
+	background-color: #2a3547;
+}
+.coltwo-content #line-one{
+	position: absolute;
+	top: 160px;
+}
+.coltwo-content #line-two{
+	position: absolute;
+	top: 315px;
+}
+.colthree{
+	position: relative;
+	font-size:0.9rem;
+	float: left;
+	width: calc(100% - 250px - 6%);
+	height: 100%;
+	font-family: sans-serif;
+	
+}
+.colthree .mesg{
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	border-bottom: 1px solid rgba(20,20,20,0.3);
+}
+.colthree .mesg .me{
+	position: absolute;
+	display: inline-block;
+	font-size:1.5rem;
+	top: 50%;
+	left: 2.5%;
+	margin-top: -0.75rem;
+}
+.mesg .user{
+	position: absolute;
+	width: 15%;
+	height: 80%;
+	top: 17%;
+	left: 80%;
+}
+
+.mesg .user .name{
+	position: absolute;
+	color: #2399f1; 
+	top: 0;
+}
+.mesg .user img{
+	width: 25%;
+}
+.mesg .user .admin{
+	color: #b5b5b5;
+	font-size: 0.9rem;
+}
+.mesg .user .selct{
+	position: absolute;
+	top: 15%;
+	left: 90%;
+	color: #bfc7d8;
+	cursor: pointer;
+}
+
+.colthree .left{
+	position: relative;
+	float: left;
+	margin-top:5%;
+	width: 400px;
+	height: calc(100% - 8%);
+}
+.left .serch{
+	text-align: center;
+	position: relative;
+	box-sizing: content-box;
+	width: 400px;
+	height: 10%;
+	border-bottom: 1px solid rgba(20,20,20,0.3);
+	border-right: 1px solid rgba(20,20,20,0.3);
+}
+.left .serch input{
+	font-size: 0.85rem;
+	width: 85%;
+	height: 50%;
+	margin-top: 3%;
+	border-radius: 4px;
+	border: solid 1px #e5e8ee;
+	color: rgba(159, 169, 186, 0.8);
+}
+.left .bes ,.left .vic , .left .dus , .left .jack , .left .step , .left .sally{
+	box-sizing: content-box;
+	width: 400px;
+	height: 14.8%;
+	border-bottom: 1px solid rgba(20,20,20,0.3);
+	border-right: 1px solid rgba(20,20,20,0.3);
+	font-size: 0.8rem;
+	float: left;
+	line-height: 12px;
+}
+.left .bes img ,.left .vic img ,.left .dus img,
+	.left .jack img ,.left .step img ,.left .sally img{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}{
+	width: 11.5%;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+.left .bes #point{
+	position: absolute;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: #00aaff;
+	border-radius: 4px;
+	top: 80px;
+	left: 97px;
+}
+.bes-name {
+	position: absolute;
+	top: 80px;
+	left: 105px;
+	font-size: 1rem;
+	color: #2399f1;
+	
+}
+.left .bes .bes-time{
+	position: absolute;
+	top: 80px;
+	left: 358px;
+}
+.left .bes .bes-from{
+	position: absolute;
+	top: 100px;
+	left: 97px;
+	color: #b5b5b5;
+
+}
+.left .bes .message-4{
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	color: #fff;
+	background-color: #2399f1;
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left: 355px;
+	line-height: 24px;
+}
+.left .bes .col{
+	position: absolute;
+	width: 3px;
+	height: 15%;
+	background: #2399f1;
+	top: 10%;
+}
+.vic-content , .dus-content ,.jack-content ,.step-content,.sally-content{
+	width: 330px ;
+	margin-left: 20px;
+	color:#585d68;
+}
+.odiv{
+	position: absolute;
+	top: 165px;
+}
+.odivd{
+	position: absolute;
+	top: 255px;
+}	
+.odivj{
+	position: absolute;
+	top: 340px;
+}	
+.odivst{
+	position: absolute;
+	top: 425px;
+}	
+.odivsally{
+	position: absolute;
+	top:515px;
+}
+.right{
+	width: calc(100% - 400px);
+	height: calc(100% - 8%);
+	float: left;
+	position: relative;
+	margin-top: 5%;
+}
+.right .head{
+	float: left;
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid rgba(20,20,20,0.3);
+	
+}
+.right .head .bessie{
+	display: inline-block;
+	color: #585d68;
+	font-size:18px;
+	margin-top: 3%;
+	margin-left: 3%;
+	
+}
+.right .head .point-two{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: #1bb934;
+	border-radius: 4px;
+
+}
+.right .head .bessie-tools{
+	position: absolute;
+	top: 2.5%;
+	left: 55%;
+
+}
+.right .head span{
+	display: inline-block;
+	margin-left:53%;
+}
+.right .head .bessie-page{
+	position: absolute;
+	top: 2.5%;
+	left: 85%;
+}
+.rigth-content-top-one{
+	box-sizing: border-box;
+	width: 100%;
+	height: 20%;
+	margin-top: 10%;
+}
+.rigth-content-top-one img , .rigth-content-top-two img ,.rigth-content-bottom-one img{
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+.rigth-content-top-one .one-name , .rigth-content-top-two .two-name , .rigth-content-bottom-one .one-name{
+	display: inline-block;
+	margin-left: 2%;
+	
+	position: absolute;
+	top: 13%;
+}
+.rigth-content-top-one .one-time , .rigth-content-top-two .two-time , .rigth-content-bottom-one .one-time{
+	display: inline-block;
+	margin-left: 17%;
+	color: #7f8fa4;
+	position: absolute;
+	top: 13%;
+}
+.rigth-content-top-one .one-content , .rigth-content-top-two .two-content ,.rigth-content-bottom-one .one-content{
+	font-size: 0.8rem;
+	width: calc(100% - 20%);
+	position: absolute;
+	left: 13%;
+	top: 18%;
+}
+
+.cut-line-newmes {
+	position: absolute;
+	width: 100%;
+	height: 8%;
+	top:68%;
+	text-align: center;
+}
+.cut-line-newmes .line{
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color:  #2399f1;
+	margin-top: 10px;
+	z-index: -1;
+	
+}
+.cut-line-newmes .line-word{
+	text-align: center;
+
+	color:  #2399f1;
+	width: 20%;
+	background-color: #fff;
+	margin-left: calc(50% - 41px);
+	z-index: 1;
+	
+}
+.rigth-content-bottom-one {
+	width: 100%;
+	height: 20%;
+	margin-top: 30%;
+}
