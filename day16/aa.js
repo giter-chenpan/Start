@@ -1,0 +1,1 @@
+cossole.log("aaa")
